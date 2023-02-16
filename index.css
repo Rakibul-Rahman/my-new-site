@@ -1,3 +1,7 @@
+/* - - - - - utilities css - - - - -  */
+@import "utilities.css";
+
+
 /* - - - -  universal css - - - - - - */
 * {
   margin: 0;
@@ -10,7 +14,13 @@
 }
 
 /* - - - - variable - - - -  */
-
+:root{
+    --bg-color:#363636;
+    --primary:#E40131;
+    --common:#FFFFFF;
+    --similar:#FFFFFF;
+    --light:#EBEBEB;
+}
 
 
 
