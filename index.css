@@ -10,150 +10,19 @@
 }
 
 /* - - - - variable - - - -  */
-:root {
-  --bg-color: #2c2c2c;
-  --second-bg-color: #323232;
-  --text-color: #e80032;
-  --second-color: #3c3c3c;
-  --main-color: #ffffff;
-  --big-font: 5rem;
-  --h2-font: 3rem;
-  --p-font: 1.1rem;
-}
 
-body{
-    background: var(--bg-color);
-    color: var(--main-color);
-}
+
+
 
  /* - - - - - - header - - - - - -*/
- header{
-    position: fixed;
-    width: 100%;
-    top: 0;
-    right: 0;
-    z-index: 999;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 22px 10%;
-    border: 1px solid transparent;
-    transition: all 0.5s ease;
- }
 
- .navlist{
-    display: flex;
- }
-
- .navlist a{
-    color: var(--main-color);
-    font-size: 16px;
-    font-weight: 500;
-    margin: 0 25px;
-    transition: all 0.4s ease;
- }
-
- .navlist a:hover{
-    color: var(--text-color);
- }
-
- .navlist a.active{
-    color: var(--text-color);
- }
-
- #menu-icon{
-    color: var(--main-color);
-    font-size: 35px;
-    margin-left: 25px;
-    z-index: 1000;
-    cursor: pointer;
-    display: none;
- }
  /* - - - - - - header - - - - - -*/
 
- section{
-    padding: 160px 10% 120px;
- }
 
  /* - - - - - - home - - - - - -*/
-.home{
-    position: relative;
-    height: 100vh;
-    width: 100%;
-    background-image: url(./image/web\ img.jpg);
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    justify-items: flex-start;
-}
-
-.home-text h3{
-    color: var(--text-color);
-    font-size: 2.5rem;
-    font-weight: 700;
-    margin-bottom: 15px;
-}
-
-.home-text h1 span{
-    font-size: 2rem;
-    font-weight: 800;
-}
-
-.home-text h1{
-    font-size: 4rem;
-    font-weight: 700;
-}
-
-.home-text h2 span{
-    font-size: 3.5rem;
-    font-weight: 700;
-    color: var(--main-color);
-}
-
-.home-text h2 {
-    font-size: 3.5rem;
-    color: var(--text-color);
-}
-
-.home-text p{
-    margin: 30px 0;
-    font-size: 1rem;
-    color: var(--main-color);
-    letter-spacing: 1.5px;
-}
-
-.button{
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.btn{
-    display: inline-block;
-    padding: 10px 40px;
-    color: var(--main-color);
-    background: var(--text-color);
-    border-radius: 5px;
-    transition: all 0.4s ease;
-}
-
-.btn:hover{
-    background: #ca002c;
-    transform: scale(1.1)
-}
 
  /* - - - - - - home - - - - - -*/
 
  /* - - - - - - about - - - - - -*/
-.about-img{
-    width: 380px;
-    height: 500px;
-}
-
-img{
-    width: 100%;
-    height: 100%;
-}
 
  /* - - - - - - about - - - - - -*/
