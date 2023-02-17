@@ -12,7 +12,8 @@
     <!-- - - - - - css link - - - - - -->
     <link rel="stylesheet" href="index.css" />
     <link rel="stylesheet" href="./css/utilities.css" />
-    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
 
     <!-- - - - - - google font link - - - - - -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -116,22 +117,21 @@
             <img src="./assets/Group 3.jpg" alt="" />
             <div class="card-text">
               <h2>Video Editing</h2>
-              <p>I love editing. I think it feels 
-              better than any other stage 
-              of filmmaking.</p>
+              <p>
+                I love editing. I think it feels better than any other stage of
+                filmmaking.
+              </p>
             </div>
           </div>
           <div class="card">
             <img src="./assets/Group 4.jpg" alt="" />
             <h2>Graphics Design</h2>
-            <p>Everything is designed. Few 
-              things are designed well</p>
+            <p>Everything is designed. Few things are designed well</p>
           </div>
           <div class="card">
             <img src="./assets/Group 5.jpg" alt="" />
             <h2>Programming</h2>
-            <p>First, solve the problem. Then,
-              write the code</p>
+            <p>First, solve the problem. Then, write the code</p>
           </div>
         </div>
       </div>
@@ -151,54 +151,110 @@
     <!-- - - - - slider - - - - -->
     <section class="reviews">
       <div class="container">
-          <div class="client-heading">
-            <h1 class="section-heading">Client <span>Say</span></h1>
-            <p>We provide high standar clean website for your business solutions</p>
-          </div>
-          <div class="slider">
-            <div class="slider-items">
+        <div class="client-heading">
+          <h1 class="section-heading">Client <span>Say</span></h1>
+          <p>
+            We provide high standar clean website for your business solutions
+          </p>
+        </div>
+        <div class="slider mySwiper">
+          <div class="testimonial swiper-wrapper">
+            <div class="slider-items swiper-slide">
               <img src="./assets/client 1.png" alt="">
-              <h3>Eva Smith</h3>
+              <h3>Ms.Eva Smith</h3>
               <p>He is really good man. He work my company. He is honest person.
-                I like his work. Keep it up.</p>
+              I like his work. Keep it up.</p>
             </div>
-            <div class="slider-items">
+            <div class="slider-items swiper-slide">
               <img src="./assets/client 1.png" alt="">
-              <h3>Eva Smith</h3>
+              <h3>Ms.Eva Smith</h3>
               <p>He is really good man. He work my company. He is honest person.
-                I like his work. Keep it up.</p>
+              I like his work. Keep it up.</p>
             </div>
-            <div class="slider-items">
+            <div class="slider-items swiper-slide">
               <img src="./assets/client 1.png" alt="">
-              <h3>Eva Smith</h3>
+              <h3>Ms.Eva Smith</h3>
               <p>He is really good man. He work my company. He is honest person.
-                I like his work. Keep it up.</p>
-            </div>
-            <div class="slider-items">
-              <img src="./assets/client 1.png" alt="">
-              <h3>Eva Smith</h3>
-              <p>He is really good man. He work my company. He is honest person.
-                I like his work. Keep it up.</p>
-            </div>
-            <div class="slider-items">
-              <img src="./assets/client 1.png" alt="">
-              <h3>Eva Smith</h3>
-              <p>He is really good man. He work my company. He is honest person.
-                I like his work. Keep it up.</p>
-            </div>
-            <div class="slider-items">
-              <img src="./assets/client 1.png" alt="">
-              <h3>Eva Smith</h3>
-              <p>He is really good man. He work my company. He is honest person.
-                I like his work. Keep it up.</p>
+              I like his work. Keep it up.</p>
             </div>
           </div>
-  </section>
-    <!-- - - - - slider - - - - -->
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
 
+
+
+
+
+
+
+
+
+
+
+    <div class="container">
+      <div class="testimonial mySwiper">
+        <div class="testi-content swiper-wrapper">
+          <div class="slide swiper-slide">
+            <img src="./assets/client 1.png" alt="" class="image" />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam,
+              saepe provident dolorem a quaerat quo error facere nihil deleniti
+              eligendi ipsum adipisci, fugit, architecto amet asperiores
+              doloremque deserunt eum nemo.
+            </p>
+
+            <i class="bx bxs-quote-alt-left quote-icon"></i>
+
+            <div class="details">
+              <span class="name">Marnie Lotter</span>
+              <span class="job">Web Developer</span>
+            </div>
+          </div>
+          <div class="slide swiper-slide">
+            <img src="#" alt="" class="image" />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam,
+              saepe provident dolorem a quaerat quo error facere nihil deleniti
+              eligendi ipsum adipisci, fugit, architecto amet asperiores
+              doloremque deserunt eum nemo.
+            </p>
+
+            <i class="bx bxs-quote-alt-left quote-icon"></i>
+
+            <div class="details">
+              <span class="name">Marnie Lotter</span>
+              <span class="job">Web Developer</span>
+            </div>
+          </div>
+          <div class="slide swiper-slide">
+            <img src="./assets/client 1.png" alt="" class="image" />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam,
+              saepe provident dolorem a quaerat quo error facere nihil deleniti
+              eligendi ipsum adipisci, fugit, architecto amet asperiores
+              doloremque deserunt eum nemo.
+            </p>
+
+            <i class="bx bxs-quote-alt-left quote-icon"></i>
+
+            <div class="details">
+              <span class="name">Marnie Lotter</span>
+              <span class="job">Web Developer</span>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next nav-btn"></div>
+        <div class="swiper-button-prev nav-btn"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+    <!-- - - - - slider - - - - -->
 
     <!-- <- - - - - - - - index js - - - - - - - - -->
     <script src="./js/app.js"></script>
+    <script src="./js/swiper-bundle.min.js"></script>
     <!-- <- - - - - - - - index js - - - - - - - - -->
   </body>
 </html>
