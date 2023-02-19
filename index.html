@@ -30,6 +30,11 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
   </head>
   <body>
     <!-- - - - - header - - - - -->
@@ -157,19 +162,38 @@
           </p>
         </div>
 
-        <div class="slider">
-          <div class="slider-inner">
-            <div class="slider-card active" id="slider-card">
+        <!-- <div class="slider" id="slider">
+          <div class="slider-inner" id="slider-inner">
+            <div class="slider-card active">
               <img src="./assets/client 1.png" alt="" />
-              <h3>Ms. Eva Smith</h3>
+              <h3>Ms. Eva Smith 1</h3>
               <p>
                 He is really good man. He work my company. He is honest person.
                 I like his work. Keep it up.
               </p>
             </div>
+
             <div class="slider-card" id="slider-card">
               <img src="./assets/client 1.png" alt="" />
-              <h3>Ms. Eva Smith</h3>
+              <h3>Ms. Eva Smith 2</h3>
+              <p>
+                He is really good man. He work my company. He is honest person.
+                I like his work. Keep it up.
+              </p>
+            </div>
+
+            <div class="slider-card" id="slider-card">
+              <img src="./assets/client 1.png" alt="" />
+              <h3>Ms. Eva Smith 3</h3>
+              <p>
+                He is really good man. He work my company. He is honest person.
+                I like his work. Keep it up.
+              </p>
+            </div>
+
+            <div class="slider-card" id="slider-card">
+              <img src="./assets/client 1.png" alt="" />
+              <h3>Ms. Eva Smith 4</h3>
               <p>
                 He is really good man. He work my company. He is honest person.
                 I like his work. Keep it up.
@@ -177,20 +201,70 @@
             </div>
           </div>
 
-          <div class="carousel-control left">
+          <div class="slider-control left">
             <div class="arrow left"></div>
           </div>
 
-          <div class="carousel-control right">
+          <div class="slider-control right">
             <div class="arrow right"></div>
           </div>
 
-          <ol class="slider-indicators">
-            <li></li>
+          <ol class="slider-indicators" id="slider-indicators">
             <li class="active"></li>
             <li></li>
             <li></li>
+            <li></li>
           </ol>
+        </div> -->
+
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="slider-card" id="slider-card">
+                <img src="./assets/client 1.png" alt="" />
+                <h3>Ms. Eva Smith 1</h3>
+                <p>
+                  He is really good man. He work my company. He is honest
+                  person. I like his work. Keep it up.
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="slider-card" id="slider-card">
+                <img src="./assets/client 1.png" alt="" />
+                <h3>Ms. Eva Smith 2</h3>
+                <p>
+                  He is really good man. He work my company. He is honest
+                  person. I like his work. Keep it up.
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="slider-card" id="slider-card">
+                <img src="./assets/client 1.png" alt="" />
+                <h3>Ms. Eva Smith 3</h3>
+                <p>
+                  He is really good man. He work my company. He is honest
+                  person. I like his work. Keep it up.
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="slider-card" id="slider-card">
+                <img src="./assets/client 1.png" alt="" />
+                <h3>Ms. Eva Smith 4</h3>
+                <p>
+                  He is really good man. He work my company. He is honest
+                  person. I like his work. Keep it up.
+                </p>
+              </div>
+            </div>
+            ...
+          </div>
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-scrollbar"></div>
         </div>
 
         <!-- <div class="fa-solid fa-angle-left left"></div>
@@ -200,8 +274,12 @@
     <!-- - - - - slider - - - - -->
 
     <!-- <- - - - - - - - index js - - - - - - - - -->
-    <script src="./js/app.js"></script>
-    <script src="./js/swiper-bundle.min.js"></script>
+    <script src="./js/app.js" defer></script>
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"
+    ></script>
+
     <!-- <- - - - - - - - index js - - - - - - - - -->
   </body>
 </html>
