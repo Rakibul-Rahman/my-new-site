@@ -1,13 +1,10 @@
-var swiper = new Swiper(".mySwiper", {
-    slidesPerView: 1,
-    grabCursor: true,
-    loop: true,
-    pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-    },
-    navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-    },
+const sliderCard = document.getElementById("slider-card");
+const dots = document.querySelectorAll('.slider-indicators li');
+
+
+document.querySelector('.carousel-indicators').addEventListener('click', function (e) {
+    var target = [].slice.call(e.target.parentNode.children).indexOf(e.target);
+    if (target !== currentItem && target < dots.length) {
+        goToItem(target);
+    }
 });
